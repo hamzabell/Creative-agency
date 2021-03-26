@@ -16,37 +16,44 @@ function Services() {
           <h1 className="text-white text-6xl font-normal">&portfolio</h1>
           <div className="my-20 flex  space-x-32">
             <ServiceCard
-              icon={WebDesign}
               title="web Design"
               subtitle="modern web design services withnew trends and direction."
-            />
+            >
+              <img src={WebDesign} alt="web" />
+            </ServiceCard>
             <ServiceCard
-              icon={Brading}
               title="Branding"
               subtitle="highly professional branding and logo design work."
-            />
+            >
+              <img src={Brading} alt="branding" />
+            </ServiceCard>
             <ServiceCard
-              icon={Graphics}
               title="Motion graphics"
               subtitle="modern motion graphics and animation for businesses. "
-            />
+            >
+              <img src={Graphics} alt="graphics" />
+            </ServiceCard>
           </div>
           <div className="flex  space-x-32 mb-32">
             <ServiceCard
               icon={UI}
               title="ui/ux design"
               subtitle="Standard screen generation and design for all devices."
-            />
+            >
+              <img src={UI} alt="ui" />
+            </ServiceCard>
             <ServiceCard
-              icon={Code}
               title="Web Development"
               subtitle="website development is something we are best in. "
-            />
+            >
+              <img src={Code} alt="code" />
+            </ServiceCard>
             <ServiceCard
-              icon={AppTesting}
               title="App testing"
               subtitle="we test app for better user experience and results."
-            />
+            >
+              <img src={AppTesting} alt="testing" />
+            </ServiceCard>
           </div>
         </div>
       </div>
