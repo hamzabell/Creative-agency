@@ -1,6 +1,11 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import { WebDesign, Brading, UI, Code, Graphics, AppTesting } from "../assets";
+import WebDesign from "../assets/web-design.png";
+import AppTesting from "../assets/app.png";
+import Brading from "../assets/branding.png";
+import Graphics from "../assets/graphics.png";
+import UI from "../assets/ui.png";
+import Code from "../assets/web.png";
 
 function Services() {
   return (
