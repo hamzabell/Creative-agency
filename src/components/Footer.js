@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <p className="text-left w-96 text-blue-600">
+              <p className="text-left w-72 text-blue-600">
                 A design agency shaping ideas into products. We help startups
                 and enterprises invent, build and launch their next project.
               </p>
